@@ -1,10 +1,8 @@
-<script setup>
 
-</script>
 
 <template>
 
-  <header class="navtab_container">
+  <!-- <header class="navtab_container">
     <a class="navtab_item1" href="index.html"
       ><img src="Img/logo.png" alt="Logo" />
     </a>
@@ -16,7 +14,7 @@
         <li><a href="index.html">Contacte</a></li>
       </ul>
     </nav>
-  </header>
+  </header> -->
 
   <section class="bigS">
     <img src="Img/jdjdj.jpg" alt="Main" />
@@ -30,32 +28,7 @@
   <div class="sec">
     <h2>Parallax Scroll</h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus,
-      voluptatibus ipsum maiores dolorum ex facilis nesciunt harum accusantium
-      dolore iusto et nihil numquam fugit officia ducimus delectus blanditiis
-      doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Reiciendis natus placeat rerum totam perspiciatis porro laudantium eos,
-      ratione nihil voluptates voluptatem sint dolor iusto at maxime tempora
-      eaque. Perferendis, quae! Lorem ipsum dolor sit amet, consectetur
-      adipisicing elit. Quasi reprehenderit illum voluptatibus consectetur
-      aperiam quas eligendi, incidunt laudantium, debitis quis sapiente nesciunt
-      odit modi dolorum illo autem eveniet iure temporibus. Lorem ipsum dolor
-      sit amet, consectetur adipisicing elit. Perspiciatis impedit iure at, nam
-      harum dolorum iusto aliquam dolor magni recusandae quia maxime laboriosam
-      unde et natus molestias mollitia provident libero. Lorem ipsum dolor sit
-      amet consectetur adipisicing elit. Maxime quis tempore aliquid reiciendis
-      omnis ratione architecto consectetur quas voluptatibus quisquam veniam, ut
-      modi saepe sit nesciunt soluta dolores corrupti quod. Lorem ipsum dolor
-      sit, amet consectetur adipisicing elit. Molestiae soluta, quam ab labore
-      officia rem maiores amet, quis dolore consequuntur eaque! Quae modi
-      voluptatum ea, eos corporis consequuntur nihil nemo. Lorem ipsum dolor sit
-      amet consectetur adipisicing elit. Voluptatum quaerat doloribus assumenda
-      autem dolor eaque, ut optio quo voluptatem distinctio totam reprehenderit
-      quibusdam facilis dolores deleniti error, eius ducimus temporibus. Lorem
-      ipsum dolor sit amet consectetur, adipisicing elit. Ea atque corporis
-      reprehenderit, cumque ducimus repellat ex officiis fugiat quam ad ut
-      maxime quisquam doloremque minima nesciunt necessitatibus omnis aspernatur
-      obcaecati!
+      Căutarea ta pentru un viitor strălucit și plin de posibilități începe aici! YouthPath este platforma dedicată tinerilor ca tine, care doresc să găsească cele mai bune oferte de joburi și oportunități de dezvoltare profesională. Indiferent dacă ești la început de drum sau ai experiență în domeniu, avem ceva pentru fiecare dintre voi!YouthPath este locul unde începe aventura ta către un viitor strălucit. Alătură-te comunității noastre active și descoperă oportunitățile care te așteaptă!
     </p>
   </div>
   <section class="gallery">
@@ -75,7 +48,7 @@
     <img src="Img/studentw.png" alt="Main" />
   </section>
 
-  <footer>
+  <!-- <footer>
     <section class="contain">
       <div class="Contact">
         <h3>Contact</h3>
@@ -88,9 +61,13 @@
     <section class="copyright">
       Copyright &copy;Girls Go IT SummerCamp 2023 DumiHTML
     </section>
-  </footer>
+  </footer> -->
 
 </template>
+
+<script setup>
+
+</script>
 
 <style>
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Noto+Sans&display=swap'); */
