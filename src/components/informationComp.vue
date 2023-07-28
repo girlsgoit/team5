@@ -1,10 +1,22 @@
 <template>
 <div class="sec">
-    <h2>Parallax Scroll</h2>
+    <h2>Despre Noi</h2>
     <p>
-      Căutarea ta pentru un viitor strălucit și plin de posibilități începe aici! YouthPath este platforma dedicată tinerilor ca tine, care doresc să găsească cele mai bune oferte de joburi și oportunități de dezvoltare profesională. Indiferent dacă ești la început de drum sau ai experiență în domeniu, avem ceva pentru fiecare dintre voi!YouthPath este locul unde începe aventura ta către un viitor strălucit. Alătură-te comunității noastre active și descoperă oportunitățile care te așteaptă!
+      Credem cu tărie că tinerii merită să-și urmeze pasiunile și să-și
+    transforme visele în realitate prin intermediul unui stagiu sau
+    internship în profesia pe care și-o doresc.<br />
+    Suntem o platformă dedicată ajutării tinerilor să găsească informații
+    complete și relevante despre diferitele stagii și internshipuri
+    disponibile, astfel încât să poată lua decizii informate și să
+    construiască fundația unei cariere de succes. Înțelegem că remunerația
+    joacă un rol important în luarea deciziilor legate de stagiu sau
+    internship.<br />
+    De aceea, oferim date privind range-ul de salarii pentru diferite
+    profesii și niveluri de experiență, astfel încât tinerii să poată evalua
+    în mod realist beneficiile și să își poată gestiona așteptările.
     </p>
   </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias, sed distinctio minus velit tempore facere quibusdam inventore. Iste, eos. Vitae eius quia iusto dolor corporis placeat, quas eveniet dicta.</p>
 </template>
  <script>
 export default {
@@ -12,4 +24,21 @@ export default {
 }
 </script>
 
-    
+<!-- <section class="sec">
+  <h2>Despre Noi</h2>
+  <p>
+    Credem cu tărie că tinerii merită să-și urmeze pasiunile și să-și
+    transforme visele în realitate prin intermediul unui stagiu sau
+    internship în profesia pe care și-o doresc.<br />
+    Suntem o platformă dedicată ajutării tinerilor să găsească informații
+    complete și relevante despre diferitele stagii și internshipuri
+    disponibile, astfel încât să poată lua decizii informate și să
+    construiască fundația unei cariere de succes. Înțelegem că remunerația
+    joacă un rol important în luarea deciziilor legate de stagiu sau
+    internship.<br />
+    De aceea, oferim date privind range-ul de salarii pentru diferite
+    profesii și niveluri de experiență, astfel încât tinerii să poată evalua
+    în mod realist beneficiile și să își poată gestiona așteptările.
+  </p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias, sed distinctio minus velit tempore facere quibusdam inventore. Iste, eos. Vitae eius quia iusto dolor corporis placeat, quas eveniet dicta.</p>
+</section> -->
