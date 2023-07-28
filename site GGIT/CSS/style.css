@@ -217,5 +217,34 @@ body {
  .sec1cultura {
     position: relative;
     padding: 100px;
-    background: rgb(68, 65, 80);
-  }
+   background: rgb(68, 65, 80);
+  } 
+.sec1cultura h2{
+  color: white;
+}
+.sec1cultura p{
+  color: white;
+}
+.sec1IT{
+  position: relative;
+  padding: 100px;
+ background: rgb(68, 65, 80);
+
+}
+.sec1IT h2{
+color: white;
+}
+.sec1IT p{
+  color: white;
+}
+.sportsec{
+  position: relative;
+  padding: 100px;
+ background: rgb(68, 65, 80);
+}
+.sportsec h2{
+  color: white;
+}
+.sportsec p{
+  color: white;
+}
