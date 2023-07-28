@@ -1,15 +1,29 @@
+<template>
 <footer>
     <section class="contain">
       <div class="Contact">
         <h3>Contact</h3>
         <p>
-          Adresa:dhdhddg@gmail.com<br />
-          Phone:74747737
+          Adresa: youthpath@gmail.com<br />
+          Phone: 068745638
         </p>
       </div>
     </section>
     <section class="copyright">
-      Copyright &copy;Girls Go IT SummerCamp 2023 DumiHTML
+      Copyright &copy;Girls Go IT SummerCamp 2023 HTML
     </section>
   </footer>
-  <script  type="module" src="/src/main.js"></script> 
+</template>
+
+   <script>
+   export default {
+    name: "myFooter"
+   }
+  </script> 
+
+  <style scoped>
+footer{
+  color: aliceblue;
+}
+</style>
+   
