@@ -148,6 +148,10 @@ body {
 
 .form{
     grid-area: form;
+    margin-top: -500px;
+    position: relative;
+bottom: 20px;
+margin-left: 20px;
 }
 
 .formbox{
@@ -168,7 +172,7 @@ body {
     width: 100%;
 }
 .inputbox span{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 253, 253);
     margin-top: 10px;
     margin-bottom: 5px;
     
@@ -190,8 +194,8 @@ body {
 
 }
 .inputbox input[type="submit"]{
-    background-color: #1f3b55;
-    color: #fff;
+    background-color: #f2f5f8;
+    color: #050505;
     border: none;
     font-size: 17px;
     max-width: 120px;
@@ -243,8 +247,5 @@ color: white;
  background: rgb(68, 65, 80);
 }
 .sportsec h2{
-  color: white;
-}
-.sportsec p{
   color: white;
 }
