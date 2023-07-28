@@ -2,73 +2,42 @@
 
 <template>
 
-  <!-- <header class="navtab_container">
-    <a class="navtab_item1" href="index.html"
-      ><img src="Img/logo.png" alt="Logo" />
-    </a>
-    <nav class="navtab_item2">
-      <ul class="tabmenu_container">
-        <li><a href="index.html">Acasa</a></li>
-        <li><a href="index.html">Despre noi</a></li>
-        <li><a href="index.html">Galerie</a></li>
-        <li><a href="index.html">Contacte</a></li>
-      </ul>
-    </nav>
-  </header> -->
+ <myHeader/>
 
-  <section class="bigS">
+  <!-- <section class="bigS">
     <img src="Img/jdjdj.jpg" alt="Main" />
   </section>
 
   <section class="info">
     <h2 id="text">Enjoy Your New Experience</h2>
     <a href="#" id="btn">Learn More</a>
-  </section>
+  </section> -->
+  <myWelcome/>
+ 
+  <myInformation/>
 
-  <div class="sec">
-    <h2>Parallax Scroll</h2>
-    <p>
-      Căutarea ta pentru un viitor strălucit și plin de posibilități începe aici! YouthPath este platforma dedicată tinerilor ca tine, care doresc să găsească cele mai bune oferte de joburi și oportunități de dezvoltare profesională. Indiferent dacă ești la început de drum sau ai experiență în domeniu, avem ceva pentru fiecare dintre voi!YouthPath este locul unde începe aventura ta către un viitor strălucit. Alătură-te comunității noastre active și descoperă oportunitățile care te așteaptă!
-    </p>
-  </div>
-  <section class="gallery">
-    <img src="img/portfolio/1.jpg" alt="sksksk" />
 
-    <img src="img/portfolio/2.jpg" alt="sksksk" />
+ 
+  <myGallery/>
+  <RouterView/>
 
-    <img src="img/portfolio/3.jpg" alt="sksksk" />
 
-    <img src="img/portfolio/4.jpg" alt="sksksk" />
-
-    <img src="assets/portfolio/5.jpg" alt="sksksk" />
-
-    <img src="img/portfolio/6.jpg" alt="sksksk" />
-  </section>
   <section class="bigS">
     <img src="Img/studentw.png" alt="Main" />
   </section>
 
-  <!-- <footer>
-    <section class="contain">
-      <div class="Contact">
-        <h3>Contact</h3>
-        <p>
-          Adresa:dhdhddg@gmail.com<br />
-          Phone:74747737
-        </p>
-      </div>
-    </section>
-    <section class="copyright">
-      Copyright &copy;Girls Go IT SummerCamp 2023 DumiHTML
-    </section>
-  </footer> -->
 
+  <myFooter/>
 </template>
 
 <script setup>
-
+import myHeader from "./components/header.vue";
+import myFooter from "./components/footer.vue";
+import myGallery from "./components/galleryComp.vue";
+import contactComp from "./components/contactComp.vue";
+import myInformation from "./components/informationComp.vue";
+import myWelcome from "./components/welcomeComp.vue";
 </script>
-
 <style>
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Noto+Sans&display=swap'); */
 
