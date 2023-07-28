@@ -1,4 +1,4 @@
-import  
+ 
 <header class="navtab_container">
     <a class="navtab_item1" href="index.html"
       ><img src="Img/logo.png" alt="Logo" />
@@ -12,3 +12,4 @@ import
       </ul>
     </nav>
   </header>
+  <script  type="module" src="/src/main.js"></script> 
