@@ -15,6 +15,7 @@
     profesii și niveluri de experiență, astfel încât tinerii să poată evalua
     în mod realist beneficiile și să își poată gestiona așteptările.
     </p>
+    
   </div>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias, sed distinctio minus velit tempore facere quibusdam inventore. Iste, eos. Vitae eius quia iusto dolor corporis placeat, quas eveniet dicta.</p>
 </template>

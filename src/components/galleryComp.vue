@@ -1,5 +1,5 @@
 <template>
-<section class="gallery">
+<!-- <section class="gallery">
     <img src="./portfolio/1.jpg" alt="sksksk" />
 
     <img src="./portfolio/2.jpg" alt="sksksk" />
@@ -11,7 +11,14 @@
     <img src="./portfolio/5.jpg" alt="sksksk" />
 
     <img src="./portfolio/6.jpg" alt="sksksk" />
-  </section>
+  </section> -->
+  <section class="gallery">
+      <img src="./img/galerie3.jpg" alt="sksksk" />
+
+      <img src="./img/galerie1.jpg" alt="sksksk" />
+      <img src="./img/galerie4.jpg" alt="sksksk" />
+
+    </section>
 </template>
  <script>
 export default {name: "myGallery"}
