@@ -2,6 +2,8 @@
 
 <template>
 
+<br> 
+
   <!-- <header class="navtab_container">
     <a class="navtab_item1" href="index.html"
       ><img src="Img/logo.png" alt="Logo" />
