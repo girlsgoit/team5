@@ -24,6 +24,57 @@
    }
   </script> 
   <style>
+  .info h2 {
+  position: absolute;
+  text-align: center;
+  margin: 50px;
+  font-size: 3rem;
+  top: 45%;
+  z-index: 10;
+  color: white;
+}
+.info a {
+  position: absolute;
+  text-align: center;
+  margin: 50px;
+  font-size: 3rem;
+  top: 55%;
+  z-index: 10;
+  color: white;
+}
+.info h2 {
+  position: absolute;
+  text-align: center;
+  margin: 50px;
+  font-size: 3rem;
+  top: 45%;
+  z-index: 10;
+  color: white;
+}
+.info a {
+  position: absolute;
+  text-align: center;
+  margin: 50px;
+  font-size: 3rem;
+  top: 55%;
+  z-index: 10;
+  color: white;
+}
+#text {
+  position: absolute;
+}
+
+
+  #btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: rgb(255, 250, 250);
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+
 .hed{
     width: 100%;
    top: 100px;

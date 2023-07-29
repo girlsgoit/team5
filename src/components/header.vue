@@ -24,13 +24,14 @@
   <nav class="navtab_item2">
     <ul class="tabmenu_container">
     
-      <li><a href="../Pages/domenii.html">Domenii</a></li>
+      <li><RouterLink :to="{name: 'cultura'}">Domenii</RouterLink></li>
 
     </ul>
   </nav>
 </header>
 </template>
 <script> 
+import { RouterLink } from "vue-router";
 
 export default {
   data: function() {
@@ -77,4 +78,6 @@ export default {
   background: rgb(11, 27, 61);
   color: rgb(208, 216, 238);
 }
+
+
 </style>
