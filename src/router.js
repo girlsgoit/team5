@@ -6,6 +6,7 @@ import informationComp from "./components/informationComp.vue"
 import welcomeComp from "./components/welcomeComp.vue"
 import cultura from "./components/cultura.vue"
 
+    
 export const router = createRouter({
     history: createWebHistory(),
     routes: [

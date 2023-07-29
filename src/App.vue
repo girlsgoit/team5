@@ -1,7 +1,7 @@
 <template>
 
   <myHeader/>
-
+<myVideo/>
    <myDomenii/>
    <!-- <section class="bigS">
      <img src="Img/jdjdj.jpg" alt="Main" />
@@ -14,19 +14,19 @@
    <myWelcome/>
   
    <myInformation/>
- 
- 
+
   
    <myGallery/>
    <mySection2/>
+   <myInfo3/>
    <RouterView/>
  
  
-   <section class="bigS">
+   <!-- <section class="bigS">
      <img src="Img/studentw.png" alt="Main" />
-   </section>
+   </section> -->
  
- <myFormular/>
+   <myFormular/>
    <myFooter/>
  </template>
  
@@ -40,6 +40,7 @@
  import myVideo from "./components/video.vue";
  import myFormular from "./components/formular.vue";
  import mySection2 from "./components/info2.vue";
+ import myInfo3 from "./components/info3.vue";
 //  import myDomenii from "./components/domenii.html";
 
    </script> 
