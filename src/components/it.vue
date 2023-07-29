@@ -1,102 +1,214 @@
 <template> 
-<section class="sportsec">
-            <h2>Tehnologia informației și comunicațiilor (TIC): </h2>
-            <p>
-              Cu avansul tehnologic în continuă dezvoltare, profesii precum dezvoltator de software, inginer de date, specialist în securitate cibernetică și analist de date sunt foarte căutate și oferă salarii competitive.
+<section id="blog">
+      <div class="blog-heading">
+          <span>IT</span>
+          <h3>Tehnologia informației și comunicațiilor (TIC):</h3>
+      </div>
+      <div class="blog-container">
+          <div class="blog-box">
+              <div class="blog-img">
+                  <img src="./Img/softwaredev.png" alt="poza articol">
+              </div>
+
+              <div class="blog-text">
+                 
+               
+                  <a href="#" class="blog-tittle">Dezvoltator de Software:</a>
+             <p> Salariul mediu pentru dezvoltatori de software variază între aproximativ 50.000 USD și 120.000 USD pe an, în funcție de experiență, specializare </p>
+              </div>
+
+              <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+          </div>
 
 
-              Salariile în domeniul Tehnologiei Informației și Comunicațiilor (TIC) variază semnificativ în funcție de mai mulți factori, inclusiv țara și regiunea în care se lucrează, nivelul de experiență, tipul de companie sau organizație, nivelul de educație și certificările deținute, precum și cererea și oferta de profesioniști TIC în piața muncii.
-              
-              
-              În general, însă, profesioniștii din domeniul TIC au tendința de a beneficia de salarii mai mari în comparație cu alte domenii, deoarece acestea sunt domenii de înaltă cerere și esențiale pentru dezvoltarea tehnologică și inovație în diverse industrii.
-              
-              
-              Pentru a oferi o imagine mai clară, voi prezenta câteva exemple de salarii medii în domeniul TIC, dar reține că aceste cifre pot varia semnificativ în funcție de regiune și alte factori:
-              
-              
-              1. Dezvoltator de Software: Salariul mediu pentru dezvoltatori de software variază între aproximativ 50.000 USD și 120.000 USD pe an, în funcție de experiență, specializare (front-end, back-end, full-stack etc.) și locație.
-              
-              
-              2. Inginer de Date: Inginerii de date pot câștiga între 60.000 USD și 140.000 USD pe an, cu variații în funcție de experiență, nivelul de competență în analiza datelor și cerințele specifice ale locului de muncă.
-              
-              
-              3. Specialist în Securitate Cibernetică: Salariile pentru specialiștii în securitate cibernetică pot fi cuprinse între 70.000 USD și 150.000 USD pe an, cu un accent deosebit pe experiență, certificări și expertiză în domeniu.
-              
-              
-              4. Analist de Date: Salariile analiștilor de date se încadrează de obicei în intervalul de 50.000 USD și 100.000 USD pe an, cu variații în funcție de nivelul de experiență și cerințele specifice ale angajatorului.
-              
-              
-              5. Arhitect de Sisteme: Salariile arhitecților de sisteme pot varia între 80.000 USD și 150.000 USD pe an, depinzând de complexitatea proiectelor și nivelul de expertiză necesar.
-              
-              
-              Acestea sunt doar câteva exemple, iar există și alte funcții și specializări în domeniul TIC care pot avea salarii atractive. Este important să ții cont de specificul fiecărui loc de muncă și să faci cercetări detaliate pentru a obține informații precise despre salarii în zona și domeniul de interes.
-            </p>
-   </section>
-   <section class="sportsec">
-    <h2>IT Inginerie și construcții:  </h2>
-    <p>
-      Inginerii din diverse domenii, cum ar fi ingineria civilă, ingineria electrică și cea mecanică, sunt căutați pentru a contribui la proiecte de construcții și infrastructură.
+          <div class="blog-box">
+              <div class="blog-img">
+                  <img src="./Img/cybersec.png" alt="poza articol">
+              </div>
+              <div class="blog-text">
+                 
+               
+                  <a href="#" class="blog-tittle">Specialist în Securitate Cibernetică: </a>
+             <p> 70.000 USD și 150.000 USD pe an, cu un accent deosebit pe experiență, certificări și expertiză în domeniu.</p>
+              </div>
+              <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+          </div>
 
-
-      Salariile în domeniul Ingineriei și Construcțiilor pot varia semnificativ în funcție de mai mulți factori, cum ar fi nivelul de experiență, specializarea, locația, dimensiunea și tipul companiei, proiectul la care se lucrează și starea economiei în țara respectivă. În general, inginerii și profesioniștii din domeniul construcțiilor pot beneficia de salarii atractive, în special în funcție de gradul lor de expertiză și responsabilități.
-      
-      
-      Iată câteva exemple de salarii medii pentru diferite funcții în domeniul Ingineriei și Construcțiilor:
-      
-      
-      1. Inginer Civil: Salariul unui inginer civil poate varia între 40.000 USD și 100.000 USD pe an, cu variații în funcție de experiență, expertiză în diverse domenii (infrastructură, construcții, design), proiectele gestionate și locația geografică.
-      
-      
-      2. Inginer Mecanic: Salariile pentru inginerii mecanici pot fi cuprinse între 45.000 USD și 95.000 USD pe an, depinzând de specializarea lor în diverse domenii precum ingineria auto, energetica sau producția.
-      
-      
-      3. Inginer Electrician: Salariul unui inginer electrician poate varia între 45.000 USD și 90.000 USD pe an, cu variații în funcție de expertiză în designul sistemelor electrice, automatizări și industria în care activează.
-      
-      
-      4. Manager de Proiect în Construcții: Salariile managerilor de proiect în construcții pot varia între 50.000 USD și 120.000 USD pe an, în funcție de experiență, dimensiunea și complexitatea proiectelor gestionate și industria în care activează.
-      
-      
-      5. Inginer Structural: Salariul unui inginer structural poate fi în jur de 55.000 USD până la 110.000 USD pe an, cu variații în funcție de expertiză în proiectarea structurilor complexe și implicate în construcții.
-      
-      
-      Este important să menționăm că aceste cifre sunt aproximative și pot varia în funcție de țară, regiune și cerințele specifice ale angajatorilor. De asemenea, anumite proiecte de construcții mari, atât în sectorul public cât și privat, pot oferi salarii mai mari pentru profesioniști cu experiență și abilități deosebite în domeniul lor.
-      </p>
-    </section>
+          <div class="blog-box">
+              <div class="blog-img">
+                  <img src="./Img/analistd.png" alt="poza articol">
+              </div>
+              <div class="blog-text">
+                 
+               
+                  <a href="#" class="blog-tittle">Analist de Date:</a>
+             <p>50.000 USD și 100.000 USD pe an, cu variații în funcție de nivelul de experiență și cerințele specifice ale angajatorului.</p>
+              </div>
+              <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+          </div>
+          
+          </div>
+          
+  </section>
 </template>
 <script>
 export default{
 
 }
 </script>
-<style>
-footer {
-        background-color: black;
-        color: white;
-        display: flex;
-        flex-direction: column;
-      }
-      .contain {
-        display: flex;
-        text-align: center;
-        font-size: 20px;
-      }
-      .Contact {
-        flex-grow: 1;
-        flex-basis: 70%;
-      }
+<style scoped>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: rgb(226, 43, 192);
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: black;
+    font-weight: 600;
+}
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: white;
+    border: 1px solid pink;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: rgb(66, 49, 199);
+    font-size: 0.9rem;
+}
+.blog-text .blog-tittle{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(23, 23, 40);
+}
+.blog-text .blog-tittle:hover{
+    color: rgb(76, 15, 100);
+    transition: all ease 0.3s;
+}
+.blog-text p{
+    color: cadetblue;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+    
+}
+.rate {
+    float: center;
+    height: 46px;
+    padding: 0 90px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
 
-      .Contact p {
-        text-align: center;
-        font-size: 15px;
-      }
-
-      .contain h3 {
-        margin-bottom: 20px;
-        font-size: 20px;
-      }
-      .copyright {
-        padding: 15px 0;
-        text-align: center;
-        border-top: 1px solid white;
-      }
 </style>

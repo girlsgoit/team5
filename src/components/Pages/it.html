@@ -24,7 +24,7 @@
           <li><a href="../Pages/sport.html">Sport</a></li>
 
     </header> 
-    <section id="blog">
+   <section id="blog">
       <div class="blog-heading">
           <span>IT</span>
           <h3>Tehnologia informației și comunicațiilor (TIC):</h3>
@@ -32,7 +32,7 @@
       <div class="blog-container">
           <div class="blog-box">
               <div class="blog-img">
-                  <img src="../../components/Img/galerie2.jpg" alt="poza articol">
+                  <img src="../../components/Img/softwaredev.png" alt="poza articol">
               </div>
 
               <div class="blog-text">
@@ -59,7 +59,7 @@
 
           <div class="blog-box">
               <div class="blog-img">
-                  <img src="../../components/Img/galerie2.jpg" alt="poza articol">
+                  <img src="../../components/Img/cybersec.png" alt="poza articol">
               </div>
               <div class="blog-text">
                  
@@ -83,7 +83,7 @@
 
           <div class="blog-box">
               <div class="blog-img">
-                  <img src="../../components/Img/galerie2.jpg" alt="poza articol">
+                  <img src="../../components/Img/analistd.png" alt="poza articol">
               </div>
               <div class="blog-text">
                  
@@ -112,7 +112,7 @@
       
       
       
-  </section>
+  </section> 
     <footer>
       <section class="contain">
         <div class="Contact">
@@ -159,6 +159,127 @@
         text-align: center;
         border-top: 1px solid white;
       }
+      *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: rgb(226, 43, 192);
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: black;
+    font-weight: 600;
+}
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: white;
+    border: 1px solid pink;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: rgb(66, 49, 199);
+    font-size: 0.9rem;
+}
+.blog-text .blog-tittle{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(23, 23, 40);
+}
+.blog-text .blog-tittle:hover{
+    color: rgb(76, 15, 100);
+    transition: all ease 0.3s;
+}
+.blog-text p{
+    color: cadetblue;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+    
+}
+.rate {
+    float: center;
+    height: 46px;
+    padding: 0 90px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
     </style>
 
 

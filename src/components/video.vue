@@ -9,7 +9,7 @@
     </section> -->
 
     <section>
-    <video id="vid" class="hed" autoplay muted loop src="./Img/video.mp4"></video>
+    <video id="vid" class="hed" autoplay muted loop src="./Img/mp4clip.mp4"></video>
   </section>
     <section class="info">
       <h2 id="text">Enjoy Your New Experience</h2>

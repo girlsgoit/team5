@@ -164,4 +164,5 @@ Sectiunea Sectiunea Misiunea Noastra
 .sec p {
   color: white;
 }
+
 </style>

@@ -8,6 +8,10 @@ import cultura from "./components/cultura.vue"
 import mainView from "./views/mainView.vue"
 import domainView from "./views/domainView.vue"
 import galleryComp from "./components/galleryComp.vue"
+import it from "./components/it.vue"
+import sport from "./components/sport.vue"
+import economie from "./components/economie.vue"
+
 
 export const router = createRouter({
     history: createWebHistory(),
@@ -22,57 +26,40 @@ export const router = createRouter({
             path: "/welcomeComp",
             component: welcomeComp
         },
+    
         {
             name: 'home',
             path: '/',
             component: mainView,
-            children: [
-                {
-                    name: 'gallery',
-                    path: "/gallery",
-                    component: galleryComp
-            }
-            ]
-
         },
         {
             name: 'domain',
             path: '/domain',
-            component: mainView,
-            children: [
-            {
-                name: 'cultura',
-                path: "/cultura",
-                component: cultura
-            },
-            {
-                name: 'economie',
-                path: "/economie",
-                component: economie
-            },
-            {
-                name: 'educatie',
-                path: "/educatie",
-                component: educatie
-            },
-            {
-                name: 'IT',
-                path: "/it",
-                component: it
-            }, 
-            {
-                name: 'politica',
-                path: "/politica",
-                component: politica
-            }, 
-            {
-                name: 'sport',
-                path: "/sport",
-                component: sport
-            }, 
+            component: domainView,
+            children:[
+                {
+                    name: 'cultura',
+                    path: "/cultura",
+                    component: cultura
+                },
+                {
+                    name: 'economie',
+                    path: "/economie",
+                    component: economie
+                },
+                {
+                    name: 'IT',
+                    path: "/it",
+                    component: it
+                }, 
+                {
+                    name: 'sport',
+                    path: "/sport",
+                    component: sport
+                }, 
             ]
-
-        }
+        },
+        
 
     ],
 });

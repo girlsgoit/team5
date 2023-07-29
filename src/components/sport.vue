@@ -1,97 +1,101 @@
 <template>
-<section class="sportsec">
-            <h2>Sport</h2>
-            <p>
-             
-          5. În industria sportului
+ <section id="blog">
+      <div class="blog-heading">
+          <span>Sport</span>
+          <h3>Industria Sanatoasa </h3>
+      </div>
+      <div class="blog-container">
+          <div class="blog-box">
+              <div class="blog-img">
+                  <img src="./Img/antrenor.png" alt="poza articol">
+              </div>
 
-          Industria sportului oferă o varietate de profesii pentru oamenii pasionați de sport și activități fizice. Iată câteva exemple de profesii din industria sportului și ce tip de persoane ar putea aplica pentru ele:
+              <div class="blog-text">
+                 
+               
+                  <a href="#" class="blog-tittle">Antrenor sportiv:  </a>
+             <p>  Cu abilități de a motiva și instrui sportivi ar putea aplica pentru a deveni antrenori în diverse discipline sportive, cum ar fi fotbal, baschet, înot, tenis și multe altele. </p>
+              </div>
+
+              <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+          </div>
+
+
+          <div class="blog-box">
+              <div class="blog-img">
+                  <img src="./Img/directorsportiv.png" alt="poza articol">
+              </div>
+              <div class="blog-text">
+                 
+               
+                  <a href="#" class="blog-tittle">Director sportiv:</a>
+             <p> organizare și strategii de dezvoltare pot aplica pentru poziții de conducere în cluburi sportive, federații sau organizații sportive.</p>
+              </div>
+              <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+          </div>
+
+          <div class="blog-box">
+              <div class="blog-img">
+                  <img src="./Img/jurnalistsportiv.png" alt="poza articol">
+              </div>
+              <div class="blog-text">
+                 
+               
+                  <a href="#" class="blog-tittle">Jurnalist sportiv:</a>
+             <p>Pot aplica pentru a crea materiale de marketing, afișe, ilustrații sau design de personaje pentru producții media.</p>
+              </div>
+              <div class="rate">
+                  <input type="radio" id="star5" name="rate" value="5" />
+                  <label for="star5" title="text">5 stars</label>
+                  <input type="radio" id="star4" name="rate" value="4" />
+                  <label for="star4" title="text">4 stars</label>
+                  <input type="radio" id="star3" name="rate" value="3" />
+                  <label for="star3" title="text">3 stars</label>
+                  <input type="radio" id="star2" name="rate" value="2" />
+                  <label for="star2" title="text">2 stars</label>
+                  <input type="radio" id="star1" name="rate" value="1" />
+                  <label for="star1" title="text">1 star</label>
+                </div>
+          </div>
+          
+          </div>
           
           
-          
-          1. Antrenor sportiv: Persoanele pasionate de sport și cu abilități de a motiva și instrui sportivi ar putea aplica pentru a deveni antrenori în diverse discipline sportive, cum ar fi fotbal, baschet, înot, tenis și multe altele.
-          
-          
-          
-          2. Director sportiv: Persoanele cu cunoștințe solide în managementul sportiv, organizare și strategii de dezvoltare pot aplica pentru poziții de conducere în cluburi sportive, federații sau organizații sportive.
-          
-          
-          
-          3. Medic sportiv: Medicii specializați în medicina sportivă și în tratarea leziunilor sportive ar putea aplica pentru a lucra cu sportivi de performanță sau cu echipe sportive.
-          
-          
-          
-          4. Nutriționist sportiv: Specialiștii în nutriție cu expertiză în alimentația sportivilor și în optimizarea performanțelor fizice ar putea aplica pentru a oferi consultații și sfaturi în domeniul nutriției sportive.
-          
-          
-          
-          5. Fizioterapeut sportiv: Fizioterapeuții specializați în recuperarea și reabilitarea sportivilor după accidentări ar putea aplica pentru a lucra în cluburi sportive sau clinici de recuperare sportivă.
-          
-          
-          
-          6. Manager de evenimente sportive: Persoanele cu abilități în organizarea și gestionarea evenimentelor ar putea aplica pentru a coordona competiții sportive, maratoane, turnee sau alte evenimente sportive.
-          
-          
-          
-          7. Jurnalist sportiv: Jurnaliștii pasionați de sport și cu abilități de comunicare pot aplica pentru a acoperi știri, interviuri și evenimente din lumea sportului.
-          
-          
-          
-          8. Agent sportiv: Persoanele cu abilități în negociere și reprezentare pot aplica pentru a deveni agenți sportivi, intermediind contracte și oferte pentru sportivi.
-          
-          
-          
-          9. Inginer echipamente sportive: Inginerii specializați în proiectarea și dezvoltarea echipamentelor sportive, cum ar fi încălțăminte, echipament de protecție sau echipament de performanță, pot aplica în companii producătoare de echipamente sportive.
-          
-          
-          
-          10. Analist de date sportive: Experții în analiza datelor și statistici sportive pot aplica pentru a ajuta echipele sau sportivii să își optimizeze performanțele pe baza datelor colectate.
-          
-          
-          
-          Acestea sunt doar câteva dintre numeroasele profesii din industria sportului. Industria sportului oferă oportunități pentru o gamă largă de interese și abilități, de la aspecte tehnice și medicale la organizare și management. Dacă ești pasionat de sport și ai abilități relevante într-una dintre aceste zone, atunci industria sportului poate fi un domeniu potrivit pentru tine.
-          
-          
-          
-           există o serie de domenii care sunt foarte cerute și bine plătite datorită popularității sporite a sporturilor profesionale, a evenimentelor sportive majore și a creșterii interesului pentru fitness și sănătate. Iată câteva dintre aceste domenii:
-          
-          
-          
-          1. Sportivi profesioniști: Sportivii de performanță din domenii precum fotbalul, baschetul, tenisul, golful, fotbalul american și multe altele, pot câștiga sume impresionante, în special dacă sunt la nivel de top și participă în ligi și campionate importante.
-          
-          
-          
-          2. Antrenori și instructori sportivi: Antrenorii și instructorii sportivi care lucrează cu sportivi profesioniști sau cu sportivi de performanță pot beneficia de salarii bune. Aceștia pot lucra în cadrul echipelor profesionale, academiilor sportive sau în antrenamentul personal pentru sportivii de elită.
-          
-          
-          
-          3. Management și marketing sportiv: Managerii și specialiștii în marketing din industria sportului sunt responsabili de gestionarea carierelor sportivilor, organizarea evenimentelor sportive, negocieri contractuale și promovarea brandurilor sportive. Aceste poziții pot oferi salarii atractive, mai ales în cazul marilor companii sau echipelor sportive.
-          
-          
-          
-          4. Medicină sportivă: Medicii și specialiștii în medicina sportivă sunt foarte căutați pentru îngrijirea și tratamentul sportivilor și pentru a ajuta la optimizarea performanțelor acestora. În funcție de experiență și specializare, salariile pot fi destul de bune.
-          
-          
-          
-          5. Tehnologie și analiză de date sportive: Cu avansul tehnologic, cererea pentru specialiști în analiza datelor și tehnologia sportivă a crescut semnificativ. Aceștia ajută la analizarea performanțelor sportivilor și la dezvoltarea strategiilor de joc. Salariile pentru aceste poziții pot fi competitive.
-          
-          
-          
-          6. Jurnalism sportiv: Jurnaliștii specializați în domeniul sportiv pot beneficia de oportunități de carieră interesante și salarii atractive, mai ales dacă lucrează pentru marile rețele de televiziune sau publicații sportive de prestigiu.
-          
-          
-          
-          Reține că industria sportului este competitivă și cerințele pentru aceste poziții pot varia în funcție de regiune și nivelul de experiență și expertiză necesare. Succesul în aceste domenii implică pasiune pentru sport, angajament, talent și, adesea, o rețea puternică de conexiuni în industrie.
-          
-        </p>
-      </section>
-  
-</template>
+      
+      
+      
+      
+  </section>
+  </template>
 <script>
+export default {
 
+}
 </script>
 <style scoped>
-footer {
+ footer {
         background-color: black;
         color: white;
         display: flex;
@@ -121,4 +125,125 @@ footer {
         text-align: center;
         border-top: 1px solid white;
       }
+      *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: rgb(226, 43, 192);
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: black;
+    font-weight: 600;
+}
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: white;
+    border: 1px solid pink;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: rgb(66, 49, 199);
+    font-size: 0.9rem;
+}
+.blog-text .blog-tittle{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(23, 23, 40);
+}
+.blog-text .blog-tittle:hover{
+    color: rgb(76, 15, 100);
+    transition: all ease 0.3s;
+}
+.blog-text p{
+    color: cadetblue;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+    
+}
+.rate {
+    float: center;
+    height: 46px;
+    padding: 0 90px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+      
 </style>

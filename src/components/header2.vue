@@ -1,16 +1,14 @@
 <template>
 <header class="navtab_container">
     <a class="navtab_item1" href="../index.html">
-      <img src="../Img/logo.png" alt="Logo" />
+      <img src="./Img/logo.png" alt="Logo" />
     </a>
     <nav class="navtab_item2">
       <ul class="tabmenu_container">
-        <li><a href="../Pages/cultura.html">Cultura</a></li>
-        <li><a href="../Pages/economie.html">Economie</a></li>
-        <li><a href="../Pages/educatie.html">Educatie</a></li>
-        <li><a href="../Pages/it.html">IT</a></li>
-        <li><a href="../Pages/politica.html">Politica</a></li>
-        <li><a href="../Pages/sport.html">Sport</a></li>
+        <li><RouterLink :to="{name: 'cultura'}">Cultura</RouterLink></li>
+        <li><RouterLink :to="{name: 'economie'}"> Economie</RouterLink></li>
+        <li><RouterLink :to="{name: 'IT'}"> IT </RouterLink> </li>
+        <li><RouterLink :to="{name: 'sport'}"> Sport </RouterLink></li> 
         </ul>
  </nav>
  
