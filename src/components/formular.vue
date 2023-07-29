@@ -1,40 +1,37 @@
 <template>
 <section class="bigS">
-      <img src="Img/studentw.png" alt="Main" />
+      <img src="./Img/studentw.png" alt="Main" />
     </section>
 
-      <form action="/procesare_formular.php" method="post">
+      <form>
         <div class="box">
             <div class="contact form">
               <h3>Lasă-ne un mesaj!</h3>
-              <form id="myForm" method="post" action="https://formspree.io/f/xoqzlogo">
+              <form id="myForm">
                 <div class="formbox">
                 <div class="row50">
                     <div class="inputbox">
                       <span>Nume, Prenume</span>
-                      <input type="text" name="name" placeholder="Ionescu" required v-model="Nume">
+                      <input type="text" name="name" placeholder="Ionescu" v-model="Nume" required>
                     </div>
     
                     <div class="inputbox">
                         <span>E-mail</span>
-                        <input type="mail" name="email" placeholder="ionescuion@gmail.com" required v-model="Email">
+                        <input type="mail" name="email" placeholder="ionescuion@gmail.com"  v-model="Email" required>
                         </div>
-                    <div>
                         <div class="sex-loc">
-                    <div class="inputbox">
                
                             <div class="inputbox">
-                                <select id="oras" name="oras" required v-model="Sex">
+                                <select id="oras" name="oras"  v-model="Sex" required>
                                     <option value="Chisinau">Sex</option>
-                                    <option value="Balti">Feminin</option>
-                                    <option value="Orhei">Masculin</option>
-                                    <option value="Orhei">Prefer sa nu spun</option>
-                                    <option value="Orhei">Altceva</option>
+                                    <option value="Feminin">Feminin</option>
+                                    <option value="Masculin">Masculin</option>
+                                    <option value="Prefer sa nu spun">Prefer sa nu spun</option>
+                                    <option value="Altceva">Altceva</option>
                                 </select>
                             </div>
-                    </div>
                     <div class="inputbox">
-                        <select id="oras" name="oras" required v-model="Oras">
+                        <select id="oras" name="oras" v-model="Oras" required>
                             <option value="">Oras</option>
                             <option value="Aneni noi">Aneni noi</option>
                             <option value="Balti">Balti</option>
@@ -61,26 +58,21 @@
                             <option value="Drochia">Drochia</option>
                         </select>
                     </div>
-                </div>
-                        </div>
+                    <div class="inputbox">
+                    <span>Message</span>
+                    <textarea name="message" placeholder="Lăsați mesajul dvs aici"  v-model="Mesaj" required></textarea>
+                  </div>
+                  
+
+                  </div>
+                  <div class="inputbox">
+                        <input type="submit" value="Trimite" @click="handleSubmit" >
+                      </div>
                         </div>
                       </div>
                       </form>
                       </div>
-        
-                <div class="row100">
-                  <div class="inputbox">
-                    <span>Message</span>
-                    <textarea name="message" placeholder="Lăsați mesajul dvs aici" required v-model="Mesaj"></textarea>
-                  </div>
-                </div>
-        
-    
-                      <div class="inputbox">
-                        <input type="submit" value="Trimite" @click="handleSubmit" >
-                      </div>
 
-                      
                    </div>
     
              </form>
