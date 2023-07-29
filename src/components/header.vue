@@ -7,10 +7,8 @@
     </a>
     <nav class="navtab_item2">
       <ul class="tabmenu_container">
-        <li> <a href="index.html"> Acasa </a> </li>
-        <li> <a href="index.html"> Despre noi </a> </li>
-        <li> <a href="index.html"> Galerie </a> </li>
-        <li> <a href="index.html"> Contacte </a> </li>
+        <li><a href="../Pages/domenii.html">Domenii</a></li>
+
       </ul>
     </nav>
 
@@ -19,8 +17,19 @@
 <script> 
 
 export default {
+  data: function() {
+    return {
+      isVisible: false
+    }
+  },
+  methods: {
+    toggleVisibility: function() {
+      this.isVisible=!this.isVisible
+    }
+  },
   name: "myHeader"
 }
+
 </script>
 <style>
 .navtab_container {
