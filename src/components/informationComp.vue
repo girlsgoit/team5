@@ -25,6 +25,22 @@ export default {
   name: "myInformation"
 }
 </script>
+<style>
+.sec {
+  position: relative;
+  padding: 100px;
+  background: rgb(7, 1, 36);
+}
+.sec h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+.sec p {
+  color: white;
+}
+
+</style>
 
 <!-- <section class="sec">
   <h2>Despre Noi</h2>
