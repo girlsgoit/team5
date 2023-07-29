@@ -1,7 +1,8 @@
 <template>
 
   <myHeader/>
- 
+
+   <myDomenii/>
    <!-- <section class="bigS">
      <img src="Img/jdjdj.jpg" alt="Main" />
    </section>
@@ -17,6 +18,7 @@
  
   
    <myGallery/>
+   <mySection2/>
    <RouterView/>
  
  
@@ -24,7 +26,7 @@
      <img src="Img/studentw.png" alt="Main" />
    </section>
  
- 
+ <myFormular/>
    <myFooter/>
  </template>
  
@@ -37,8 +39,17 @@
  import myWelcome from "./components/welcomeComp.vue";
  import myVideo from "./components/video.vue";
  import myFormular from "./components/formular.vue";
+ import mySection2 from "./components/info2.vue";
+//  import myDomenii from "./components/domenii.html";
 
    </script> 
+<!-- <script>
+export default {
+  components:{
+    myHeader
+  }
+}
+</script> -->
  <style>
  /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Noto+Sans&display=swap'); */
  

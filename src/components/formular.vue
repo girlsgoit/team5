@@ -86,5 +86,74 @@
     }
     </script>
     <style>
+.form{
+    grid-area: form;
+}
 
+.formbox{
+    position: relative;
+    width: 100%;
+
+}
+.formbox .row50{
+    display: flex;
+    gap: 20px;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.formbox .row50 .inputbox{
+    width: 100%;
+}
+.inputbox span{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+.inputbox input{
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid #333;
+}
+.inputbox textarea{
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 50px;
+    margin-bottom: 10px;
+
+}
+.inputbox input[type="submit"]{
+    background-color: #1f3b55;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.sex-loc{
+   margin-top: 20px;
+}
+Sectiunea Sectiunea Misiunea Noastra
+.sec {
+  position: relative;
+  padding: 100px;
+  background: rgb(7, 1, 36);
+}
+.sec h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+.sec p {
+  color: white;
+}
 </style>

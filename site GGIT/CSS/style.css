@@ -87,12 +87,23 @@ body {
   background: rgb(7, 1, 36);
 }
 .sec h2 {
-  font-size: 1.2rem;
+  font-size: 40px;
+  padding-left: 550px;
   margin-bottom: 10px;
   color: white;
+  font-family: 'Inter';
+  display: flex;
+  text-align: center;
+  margin-right: 10px;
+
 }
 .sec p {
   color: white;
+  font-size: 17px;
+  max-width: 1200px;
+  text-align: center;
+  font-family: 'Inter';
+ 
 }
 .info h2 {
   position: absolute;
@@ -107,7 +118,6 @@ body {
   position: absolute;
   text-align: center;
   margin: 50px;
-  font-size: 3rem;
   top: 55%;
   z-index: 10;
   color: white;
@@ -150,13 +160,18 @@ body {
     grid-area: form;
     margin-top: -500px;
     position: relative;
-bottom: 20px;
-margin-left: 20px;
+    bottom: 50px;
+    margin-left: 20px;
+    
+
+
+
 }
 
 .formbox{
     position: relative;
     width: 100%;
+   
 
 }
 .formbox .row50{
@@ -248,4 +263,24 @@ color: white;
 }
 .sportsec h2{
   color: white;
+}
+.btn{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: rgb(255, 250, 250);
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+.info{
+  display: flex;
+}
+
+.info a{
+  color: #050505;
+  
+}
+#btn2{
+  left:200px;
 }
