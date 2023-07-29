@@ -23,7 +23,7 @@
  <script>
 export default {name: "myGallery"}
 </script>
-<style scoped>
+<style>
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -34,6 +34,7 @@ export default {name: "myGallery"}
 .gallery img {
   width: 100%;
 }
+
 /* }
 .sec {
   position: relative;
