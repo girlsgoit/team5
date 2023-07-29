@@ -54,7 +54,7 @@
    name: "myFooter"
   }
  </script> 
-<style>
+<style scoped>
 body {
     background-color: rgb(254, 252, 252);
     font-size: 1.6rem;

@@ -25,7 +25,7 @@ export default {
   name: "myInformation"
 }
 </script>
-<style>
+<style scoped>
 .sec {
   position: relative;
   padding: 100px;

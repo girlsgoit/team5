@@ -113,7 +113,7 @@ import {addDoc,collection} from 'firebase/firestore';
       }}
     }
     </script>
-    <style>
+    <style scoped>
 .form{
     grid-area: form;
 }

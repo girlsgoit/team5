@@ -31,7 +31,7 @@ export default {
     name: "mySection2"
    }
 </script>
-<style>
+<style scoped>
 .sec {
   position: relative;
   padding: 100px;

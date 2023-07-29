@@ -13,7 +13,7 @@
   </section>
     <section class="info">
       <h2 id="text">Enjoy Your New Experience</h2>
-      <a href="../Pages/singup.html" class="btn">Sign Up</a>
+      <a href="../Pages/singup.html" class="btn" id="btn1">Sign Up</a>
       <a href="../Pages/login.html" class="btn" id="btn2">Log In</a>
      </section>
 </template>
@@ -23,7 +23,9 @@
     name: "myVideo"
    }
   </script> 
-  <style>
+
+
+  <style scoped>
   .info h2 {
   position: absolute;
   text-align: center;
@@ -65,7 +67,7 @@
 }
 
 
-  #btn {
+.btn {
   text-decoration: none;
   display: inline-block;
   padding: 8px 30px;
@@ -86,4 +88,15 @@
   text-align: center;
  
   }
+
+#btn2{
+  left:300px;
+  color: rgb(0, 0, 0);
+  
+}
+
+#btn1{
+  color: rgb(0, 0, 0);
+
+}
 </style>

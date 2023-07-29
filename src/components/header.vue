@@ -30,7 +30,7 @@
   </nav>
 </header>
 </template>
-<script> 
+<script scoped> 
 import { RouterLink } from "vue-router";
 
 export default {

@@ -19,5 +19,5 @@ export default {
   name: "myHeader2"
 }
 </script>
-<style>
+<style scoped>
 </style>

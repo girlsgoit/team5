@@ -1,17 +1,4 @@
 <template>
-<!-- <section class="gallery">
-    <img src="./portfolio/1.jpg" alt="sksksk" />
-
-    <img src="./portfolio/2.jpg" alt="sksksk" />
-
-    <img src="./portfolio/3.jpg" alt="sksksk" />
-
-    <img src="./portfolio/4.jpg" alt="sksksk" />
-
-    <img src="./portfolio/5.jpg" alt="sksksk" />
-
-    <img src="./portfolio/6.jpg" alt="sksksk" />
-  </section> -->
   <section class="gallery">
       <img src="./img/galerie3.jpg" alt="sksksk" />
 
@@ -23,7 +10,7 @@
  <script>
 export default {name: "myGallery"}
 </script>
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Noto+Sans&display=swap");
 
 ::-webkit-scrollbar {
@@ -164,7 +151,9 @@ body {
 
 
 .gallery img {
-  width: 100%;
+  height: 305px;
+  min-width: 458px;
+  
 }
 .contact{
     padding: 25px;

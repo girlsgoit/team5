@@ -16,7 +16,7 @@ export default {
     name: "myWelcome"
 }
 </script>
-<style>
+<style scoped>
 #btn {
   text-decoration: none;
   display: inline-block;
@@ -25,6 +25,10 @@ export default {
   background: rgb(255, 250, 250);
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
+}
+#btn2{
+  left:200px;
+  
 }
 
 </style>

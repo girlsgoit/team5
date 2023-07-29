@@ -3,7 +3,7 @@
 <script>
 </script>
 
-<style>.sec {
+<style scoped>.sec {
     position: relative;
     padding: 100px;
     background: rgb(7, 1, 36);
