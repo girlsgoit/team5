@@ -12,19 +12,19 @@
                 <div class="row50">
                     <div class="inputbox">
                       <span>Nume, Prenume</span>
-                      <input type="text" name="name" placeholder="Ionescu" required>
+                      <input type="text" name="name" placeholder="Ionescu" required v-model="Nume">
                     </div>
     
                     <div class="inputbox">
                         <span>E-mail</span>
-                        <input type="mail" name="email" placeholder="ionescuion@gmail.com" required>
+                        <input type="mail" name="email" placeholder="ionescuion@gmail.com" required v-model="Email">
                         </div>
                     <div>
                         <div class="sex-loc">
                     <div class="inputbox">
                
                             <div class="inputbox">
-                                <select id="oras" name="oras" required>
+                                <select id="oras" name="oras" required v-model="Sex">
                                     <option value="Chisinau">Sex</option>
                                     <option value="Balti">Feminin</option>
                                     <option value="Orhei">Masculin</option>
@@ -34,7 +34,7 @@
                             </div>
                     </div>
                     <div class="inputbox">
-                        <select id="oras" name="oras" required>
+                        <select id="oras" name="oras" required v-model="Oras">
                             <option value="">Oras</option>
                             <option value="Aneni noi">Aneni noi</option>
                             <option value="Balti">Balti</option>
@@ -71,13 +71,13 @@
                 <div class="row100">
                   <div class="inputbox">
                     <span>Message</span>
-                    <textarea name="message" placeholder="Lăsați mesajul dvs aici" required></textarea>
+                    <textarea name="message" placeholder="Lăsați mesajul dvs aici" required v-model="Mesaj"></textarea>
                   </div>
                 </div>
         
     
                       <div class="inputbox">
-                        <input type="submit" value="Trimite">
+                        <input type="submit" value="Trimite" @click="handleSubmit" >
                       </div>
 
                       
@@ -88,9 +88,37 @@
     
     </template>
     <script> 
-
+import {db} from '../firebase/index.js';
+import {addDoc,collection} from 'firebase/firestore';
     export default {
-      name: "myFormular"
+      name: "myFormular",
+      data: function(){
+        return {
+          Email:"",
+          Mesaj:"",
+          Nume:"",
+          Oras:"",
+          Sex:""
+
+
+}
+
+      },
+      methods: {
+        handleSubmit: async function(e){
+        e.preventDefault()
+
+          const review = await addDoc(collection(db, "formulare"), 
+          {
+            Email: this.Email,
+          Mesaj:this.Mesaj,
+          Nume:this.Nume,
+          Oras:this.Oras,
+          Sex:this.Sex
+
+          })
+
+      }}
     }
     </script>
     <style>
