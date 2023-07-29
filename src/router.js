@@ -5,6 +5,7 @@ import footer from "./components/footer.vue"
 import informationComp from "./components/informationComp.vue"
 import welcomeComp from "./components/welcomeComp.vue"
 
+    
 export const router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -18,6 +19,24 @@ export const router = createRouter({
             path: "/welcomeComp",
             component: welcomeComp
         },
+        {
+            name: 'home',
+            path: '/',
+            component: mainView,
+            children: [
+                {
+                    name: 'gallery',
+                    path: "/gallery",
+                    component: galleryComp
+            },
+            {
+                name: 'cultura',
+                path: "/cultura",
+                component: cultura
+            }
+            ]
+
+        }
 
     ],
 });

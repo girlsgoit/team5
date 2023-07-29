@@ -13,6 +13,8 @@
       Copyright &copy;Girls Go IT SummerCamp 2023 HTML
     </section>
   </footer>
+
+  
 </template>
 
    <script>

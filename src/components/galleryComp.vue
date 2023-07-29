@@ -30,9 +30,11 @@ export default {name: "myGallery"}
 
 }
 
+
 .gallery img {
   width: 100%;
 }
+/* }
 .sec {
   position: relative;
   padding: 100px;
@@ -45,5 +47,5 @@ export default {name: "myGallery"}
 }
 .sec p {
   color: white;
-}
+} */
 </style>
