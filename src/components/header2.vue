@@ -1,8 +1,9 @@
 <template>
 <header class="navtab_container">
-    <a class="navtab_item1" href="../index.html">
+    <RouterLink :to="{name: 'home'}" class="navtab_item1">
       <img src="./Img/logo.png" alt="Logo" />
-    </a>
+
+    </RouterLink>
     <nav class="navtab_item2">
       <ul class="tabmenu_container">
         <li><RouterLink :to="{name: 'cultura'}">Cultura</RouterLink></li>

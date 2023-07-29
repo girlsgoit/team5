@@ -1,26 +1,12 @@
-<!--  
-<template>
-  <div  class="navtab_container">
 
-    <a class="navtab_item1" href="index.html"
-      ><img src="./Img/logo.png" alt="Logo" />
-    </a>
-    <nav class="navtab_item2">
-      <ul class="tabmenu_container">
-        <li><a href="../Pages/domenii.html">Domenii</a></li>
-
-      </ul>
-    </nav>
-
-  </div>
-</template> -->
 
 
 <template>
 <header class="navtab_container">
-  <a class="navtab_item1" href="index.html">
-    <img id="logo" src="./Img/logo.png" alt="Logo" />
-  </a>
+  <RouterLink :to="{name: 'home'}" class="navtab_item1">
+      <img src="./Img/logo.png" alt="Logo" />
+
+    </RouterLink>
   <nav class="navtab_item2">
     <ul class="tabmenu_container">
     

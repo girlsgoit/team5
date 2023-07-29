@@ -24,7 +24,7 @@
         />
 
         <select class="form-input" id="sex" name="sex" v-model="Sex" required>
-          <option value="Chisinau">Sex</option>
+          <option value="">Sex</option>
           <option value="Feminin">Feminin</option>
           <option value="Masculin">Masculin</option>
           <option value="Prefer sa nu spun">Prefer sa nu spun</option>
