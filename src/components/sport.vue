@@ -151,11 +151,11 @@ ul{
     flex-direction: column;
 }
 .blog-heading span{
-    color: rgb(226, 43, 192);
+    color: rgb(43, 156, 226);
 }
 .blog-heading h3{
     font-size: 2.4rem;
-    color: black;
+    color: rgb(248, 248, 248);
     font-weight: 600;
 }
 .blog-container {

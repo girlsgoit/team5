@@ -10,7 +10,7 @@
       suportul necesar pentru a-și atinge potențialul maxim. Suntem dedicați
       în a oferi o experiență plăcută și eficientă pe platforma noastră și
       suntem întotdeauna deschiși la feedback-ul vostru pentru a ne îmbunătăți
-      serviciile. Așadar, alăturați-vă comunității NoiInternship.ro și
+      serviciile. Așadar, alăturați-vă comunității YouthPath.md și
       începeți călătoria către o carieră de succes!
     </p>
   </section>
